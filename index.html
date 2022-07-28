@@ -15,7 +15,7 @@
   <div class="container">
     <!-- Header part start -->
     <Header>
-      <nav class="navbar navbar-expand-lg">
+      <nav class="navbar  navbar-expand-lg">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img src="./images/company/company-6.png" alt="">
@@ -26,7 +26,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav m-auto mb-2 ">
               <li class="nav-item me-4">
                 <a class="nav-link " aria-current="page" href="#">Home</a>
               </li>
@@ -47,10 +47,8 @@
                 <a class="nav-link">Register</a>
               </li>
             </ul>
-            <form class="d-flex" role="search">
-              <button class="btn btn-outline-primary px-4 py-2" type="submit">Register</button>
-            </form>
           </div>
+          <button class="btn btn-outline-primary px-4 py-2 d-md-none d-lg-block d-none" type="submit">Register</button>
         </div>
       </nav>
 
@@ -71,7 +69,7 @@
                   <br> offer the skills you need to pivot and expand your
                   career.
                 </p>
-                <button class="btn btn-primary px-4 py-2 fs-5">Find your course</button>
+                <button class="btn btn-primary px-4 py-2 fs-5 mb-5">Find your course</button>
               </div>
             </div>
             <div class="carousel-item">
@@ -86,7 +84,7 @@
                   <br> offer the skills you need to pivot and expand your
                   career.
                 </p>
-                <button class="btn btn-primary px-4 py-2 fs-5">Find your course</button>
+                <button class="btn btn-primary px-4 py-2 fs-5 mb-5">Find your course</button>
               </div>
             </div>
             <div class="carousel-item">
@@ -101,7 +99,7 @@
                   <br> offer the skills you need to pivot and expand your
                   career.
                 </p>
-                <button class="btn btn-primary px-4 py-2 fs-5">Find your course</button>
+                <button class="btn btn-primary px-4 py-2 fs-5 mb-5">Find your course</button>
               </div>
             </div>
           </div>
@@ -124,7 +122,7 @@
     </Header>
     <!-- Header part End----------------- -->
 
-    Main start-----
+    <!-- Main start----- -->
     <main>
       <!-- courses part----------- -->
       <section class="mt-5 ">
@@ -134,112 +132,150 @@
           frontend and/or backend web development, machine learning, IOS, Android, and much more.</p>
         <div class="course-status mt-5">
           <div class="row">
-            <div class="col-lg-6 d-flex flex-column">
-              <div class="d-flex border align-items-center">
-                <div>
-                  <img src="./images/course/course-img-1.png" class="course-status-img" alt="">
-                </div>
-                <div class="ms-3">
-                  <h4>Introduction to Python Programming</h4>
-                  <small class="text-black-50">The fundamental design cycle of computer science and computer
-                    programming</small>
-                  <br>
-                  <span class="text-primary">Price : $20</span>
-                </div>
-              </div>
-              <div class="d-flex border align-items-center mt-4">
-                <div>
-                  <img src="./images/course/course-3.png" class="course-status-img" alt="">
-                </div>
-                <div class="ms-3">
-                  <h4>Web Programming</h4>
-                  <small class="text-black-50">Familiarity in a number of languages, including C, Python, SQL, and
-                    JavaScript plus CSS and HTML</small>
-                  <br>
-                  <span class="text-primary">Price : $35</span>
-                </div>
-              </div>
-              <div class="d-flex border align-items-center mt-4">
-                <div>
-                  <img src="./images/course/newcourse-2.png" class="course-status-img" alt="">
-                </div>
-                <div class="ms-3">
-                  <h4>C++ Programming: Basic Skills</h4>
-                  <small class="text-black-50">This beginner-focused course will give you the basic skills needed to
-                    write a simple program in C++.</small>
-                  <br>
-                  <span class="text-primary">Price : $45</span>
-                </div>
-              </div>
-
-            </div>
-
-            <!-- 2nd col -->
             <div class="col-lg-6">
-              <div class="d-flex border align-items-center">
-                <div>
-                  <img src="./images/course/course-2.png" class="course-status-img" alt="">
-                </div>
-                <div class="ms-3">
-                  <h4>Javascript Basic to advanced</h4>
-                  <small class="text-black-50">Master your language with lessons, quizzes, and projects designed for
-                    real-life scenarios Javascript</small>
-                  <br>
-                  <span class="text-primary">Price : $50</span>
-                </div>
-              </div>
-              <div class="d-flex border align-items-center mt-4">
-                <div>
-                  <img src="./images/course/course-4.png" class="course-status-img" alt="">
-                </div>
-                <div class="ms-3">
-                  <h4>Digital Marketing</h4>
-                  <small class="text-black-50">Safe and Secure. Find Learn Digital Marketing Online. Simple in use. Easy
-                    Acces To Information.</small>
-                  <br>
-                  <span class="text-primary">Price : $60</span>
+              <div class="card mt-4">
+                <div class="row d-flex align-items-center">
+                  <div class="col-lg-4 col-md-4">
+                     <img src="./images/course/course-img-1.png" class="card-img-top"  alt="...">
+                    </div>
+                 <div class="col-lg-8 col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Introduction to Python Programming</h5>
+                    <p class="card-text text-black-50">The fundamental design cycle of computer science and computer
+                      programming</p>
+                    <span class="text-primary">Price : $20</span>
+                  </div>
+                 </div>
+                 
                 </div>
               </div>
-              <div class="d-flex border align-items-center mt-4">
-                <div>
-                  <img src="./images/course/course-6.png" class="course-status-img" alt="">
+              <!-- 2nd course -->
+              <div class="card mt-4">
+              <div class="row d-flex align-items-center">
+                <div class="col-lg-4 col-md-4">
+                  <div>
+                    <img src="./images/course/course-3.png" class="card-img-top rounded-2"  alt="...">
+                  </div>
                 </div>
-                <div class="ms-3">
-                  <h4>Motion Graphics</h4>
-                  <small class="text-black-50">Motion graphics (sometimes mograph) are pieces of animation or digital
-                    footage which create the illusion of motion or rotation, .</small>
-                  <br>
-                  <span class="text-primary">Price : $15</span>
+                <div class="col-lg-8 col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Web Programming</h5>
+                    <p class="card-text text-black-50">Familiarity in a number of languages, including C, Python, SQL,
+                      and
+                      JavaScript plus CSS and HTML</p>
+                    <span class="text-primary">Price : $35</span>
+                  </div>
+                </div>
+              </div>
+              
+              </div>
+              <!-- course 3 -->
+              <div class="card mt-4">
+                <div class="row d-flex align-items-center">
+                  <div class="col-lg-4 col-md-4">
+                        <img src="./images/course/newcourse-2.png" class="card-img-top rounded-2"  alt="...">
+                  </div>
+                  <div class="col-lg-8 col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">C++ Programming: Basic Skills</h5>
+                      <p class="card-text text-black-50">This beginner-focused course will give you the basic skills
+                        needed to
+                        write a simple program in C++.</p>
+                      <span class="text-primary">Price : $45</span>
+                    </div>
+                  </div>
                 </div>
               </div>
 
             </div>
-            <button class="btn btn-primary  mt-4 fs-5 text-center mx-auto w-auto mb-5">Explore More Courses</button>
+            <!-- left course end -->
+
+            <!-- right course-------------- -->
+            <!-- 4thnd course -->
+            <div class="col-lg-6 d-flex flex-column">
+              <div class="card mt-4">
+                <div class=" row d-flex align-items-center">
+                 <div class="col-lg-4 col-md-4">
+                    <img src="./images/course/course-2.png" class="card-img-top rounded-2"   alt="...">
+                 </div>
+                 <div class="col-lg-8 col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Javascript Basic to advanced</h5>
+                    <p class="card-text text-black-50">Master your language with lessons, quizzes, and projects designed
+                      for
+                      real-life scenarios Javascript</p>
+                    <span class="text-primary">Price : $50</span>
+                  </div>
+                 </div>
+                </div>
+              </div>
+              <!-- 5th  course -->
+              <div class="card  mt-4">
+                <div class=" row d-flex align-items-center">
+                  <div class="col-lg-4 col-md-4">
+                    <img src="./images/course/course-3.png" class="card-img-top rounded-2"   alt="...">
+                  </div>
+                  <div class="col-lg-8 col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Digital Marketing</h5>
+                      <p class="card-text text-black-50">Safe and Secure. Find Learn Digital Marketing Online. Simple in
+                        use. Easy
+                        Acces To Information.</p>
+                      <span class="text-primary">Price : $60</span>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+              <!-- course 6th -->
+              <div class="card  mt-4">
+                <div class=" row d-flex align-items-center">
+                   <div class="col-lg-4 col-md-4">
+                    <img src="./images/course/course-6.png" class="card-img-top rounded-2"    alt="...">
+                   </div>
+                   <div class="col-lg-8 col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Motion Graphics</h5>
+                      <p class="card-text text-black-50">Motion graphics (sometimes mograph) are pieces of animation or
+                        digital
+                        footage which create the illusion of motion or rotation</p>
+                      <span class="text-primary">Price : $15</span>
+                    </div>
+                   </div>
+                  
+                </div>
+              </div>
+
+            </div>
+
           </div>
+          <button class="btn btn-primary  mt-4 fs-5 text-center mx-auto w-auto mb-5 d-none d-lg-block">Explore More
+            Courses</button>
+          <button class="btn btn-primary  mt-4 fs-5 text-center mx-auto w-auto mb-5 d-none d-md-block d-lg-none">View
+            All</button>
         </div>
       </section>
       <!-- courses End----------- -->
-
       <!-- For Learner part start -->
       <section class="mb-5">
         <div>
           <div class="bg-primary rounded-3">
-            <div class="row">
-              <div class="col-lg-6">
-                <img src="./images/course/learner4.png" class="img-fluid" alt="">
+            <div class="row mt-5">
+              <div class="col-lg-5 col-md-5 mt-4">
+                <img src="./images/course/learner4.png" class="img-fluid h-100" alt="">
               </div>
-              <div class="col-lg-6 d-flex flex-column justify-content-evenly">
+              <div class="col-lg-7 col-md-7 d-flex flex-column justify-content-evenly   mt-4">
                 <div>
                   <h2 class="text-warning">FOR LEARNERS</h2>
-                  <h3 class="text-white">Propel your career, get a degree, or expand your knowledge at any level.</h3>
+                  <span class="text-white">Propel your career, get a degree, or expand your knowledge at any level.</span>
                 </div>
                 <div>
                   <h2 class="text-warning">FOR BUSINESSES</h2>
-                  <h3 class="text-white">Upskill employees and build a culture of learning.</h3>
+                  <span class="text-white">Upskill employees and build a culture of learning.</span>
                 </div>
                 <div>
                   <h2 class="text-warning">FOR EDUCATORS</h2>
-                  <h3 class="text-white">Expand your curriculum through blended learning.</h3>
+                  <span class="text-white">Expand your curriculum through <br> blended learning.</span>
                 </div>
               </div>
             </div>
@@ -247,14 +283,14 @@
         </div>
       </section>
       <!-- For Learner part end------ -->
-
       <!-- Ready to join part start------->
       <section class="mb-5">
         <div class="bg-primary p-5 lh-base rounded-3">
-          <div class="d-flex align-items-center justify-content-center">
+          <div class="d-flex align-items-center justify-content-between flex-column flex-lg-row">
             <div>
-              <h2 class="text-light">Ready to join us?</h2>
-              <p class="w-75 text-light">It is a long established fact that a reader will be distracted by the readable
+              <h2 class="text-light text-center text-lg-start">Ready to join us?</h2>
+              <p class=" text-light text-center text-lg-start">It is a long established fact that a reader will brbe
+                distracted by the readable <br>
                 content of a page when looking at its layou</p>
             </div>
             <div>
@@ -314,33 +350,41 @@
       <!-- Successful Student Part start -->
       <Section class="mt-5 lh-lg">
         <h1>Meet Our Successfull <br> Students</h1>
-        <p class="w-50">It is a long established fact that a reader will be distracted by the readable content of a page
+        <p class="">It is a long established fact that a reader will be
+          <br> distracted by the readable content of a page
           when looking at its layout.</p>
-        <div>
+        <div class="row">
           <div class="row mt-4">
-            <div class="d-flex justify-content-between align-items-center">
-              <div class="card" style="width: 18rem;">
+            <div class="col-lg-3 col-md-6 col-12 mt-4">
+              <div class="card">
                 <img src="./images/student/student-1.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Awlad Hossain</h5>
                   <small class="card-text text-black-50">Web Devlopper</small>
                 </div>
               </div>
-              <div class="card" style="width: 18rem;">
+
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 mt-4">
+              <div class="card" >
                 <img src="./images/student/student-2.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Jann5tul Islam</h5>
                   <small class="card-text text-black-50">Python Programmer</small>
                 </div>
               </div>
-              <div class="card" style="width: 18rem;">
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 mt-4">
+              <div class="card">
                 <img src="./images/student/student-3.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Imran Hossain</h5>
                   <small class="card-text text-black-50">Graphic Designer</small>
                 </div>
               </div>
-              <div class="card" style="width: 18rem;">
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 mt-4">
+              <div class="card">
                 <img src="./images/student/student-4.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Nishi Akter</h5>
@@ -348,21 +392,70 @@
                 </div>
               </div>
             </div>
-            <button class="btn btn-primary w-auto px-3 py-2 m-auto mt-5">View All</button>
           </div>
+          <button class="btn btn-primary w-auto px-3 py-2 m-auto mt-5 d-block d-lg-block  d-md-none ">View All</button>
         </div>
       </Section>
       <!-- Successful Student Part End -->
 
       <!-- student Feedback part---------- -->
       <section>
-        <div id="carouselExampleControls" class="carousel slide mt-5" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div>
+        <h1 class="text-center mt-5">Student Feedback</h1>
+        <div id="carouselExampleControls" class="carousel slide mt-5 mb-5" data-bs-ride="carousel">
+          <div class="row">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div>
+                  <div class="row">
+                    <div class="col-lg-6 mt-4">
+                      <div class="border p-5 rounded-2">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                          <img src="./images/comma.png" alt="">
+                          <div>
+                            <i class="fa-solid fa-star text-warning"></i>
+                            <i class="fa-solid fa-star text-warning"></i>
+                            <i class="fa-solid fa-star text-warning"></i>
+                            <i class="fa-solid fa-star text-warning"></i>
+                            <i class="fa-solid fa-star-half-stroke text-warning"></i>
+                          </div>
+                        </div>
+                        <span class="text-black-50">Beautiful course. I am a software developer with 10+ years of
+                          experience in programming and have never realized depth of actual MATH behind all that I do.
+                          Thank you Robert Sedgewick, you are the BEST.</span>
+                        <div class="mt-3">
+                          <img src="./images/student/student-5.png" alt="">
+                          <span>Awlad Hossain</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 mt-4">
+                      <div class="border p-5 rounded-2">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                          <img src="./images/comma.png" alt="">
+                          <div>
+                            <i class="fa-solid fa-star text-warning"></i>
+                            <i class="fa-solid fa-star text-warning"></i>
+                            <i class="fa-solid fa-star text-warning"></i>
+                            <i class="fa-solid fa-star text-warning"></i>
+                            <i class="fa-solid fa-star-half-stroke text-warning"></i>
+                          </div>
+                        </div>
+                        <span class="text-black-50">Can't wait to get into the second part of the course. The best
+                          programming course ever provided for free of cost. The techniques used are backed by
+                          mathematical thinking. It is just awesome.</span>
+                        <div class="mt-3">
+                          <img src="./images/student/student-6.png" alt="">
+                          <span>Sanjana Islam</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
                 <div class="row">
-                  <div class="col-lg-6">
-                    <div class="border p-4 rounded-2">
+                  <div class="col-lg-6 mt-4">
+                    <div class="border p-5 rounded-2">
                       <div class="d-flex justify-content-between align-items-center mb-3">
                         <img src="./images/comma.png" alt="">
                         <div>
@@ -373,17 +466,17 @@
                           <i class="fa-solid fa-star-half-stroke text-warning"></i>
                         </div>
                       </div>
-                      <span class="text-black-50">Beautiful course. I am a software developer with 10+ years of
-                        experience in programming and have never realized depth of actual MATH behind all that I do.
-                        Thank you Robert Sedgewick, you are the BEST.</span>
+                      <span class="text-black-50">I liked this course very much. Good materials and perfect lecturers.
+                        Good structured and well explained material and interesting exercises ranging from very beginner
+                        to challenging. </span>
                       <div class="mt-3">
-                        <img src="./images/student/student-5.png" alt="">
-                        <span>Awlad Hossain</span>
+                        <span>Khalid bin Musha</span>
+                        <small class="text-black-50">Web Devlopper</small>
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-6">
-                    <div class="border p-4 rounded-2">
+                  <div class="col-lg-6 mt-4">
+                    <div class="border p-5 rounded-2">
                       <div class="d-flex justify-content-between align-items-center mb-3">
                         <img src="./images/comma.png" alt="">
                         <div>
@@ -394,72 +487,28 @@
                           <i class="fa-solid fa-star-half-stroke text-warning"></i>
                         </div>
                       </div>
-                      <span class="text-black-50">Can't wait to get into the second part of the course. The best
-                        programming course ever provided for free of cost. The techniques used are backed by
-                        mathematical thinking. It is just awesome.</span>
+                      <span class="text-black-50">Excellent course, inface the best I found on any MOOC platform for a
+                        complete beginner to Java. Loved it. Would appreciate more coding assignments though. Only week 1
+                        & 2 have those.</span>
                       <div class="mt-3">
-                        <img src="./images/student/student-6.png" alt="">
-                        <span>Sanjana Islam</span>
+                        <span>Meshkat Siddik Kanok</span>
+                        <small class="text-black-50">Programmer</small>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="carousel-item">
-              <div class="row">
-                <div class="col-lg-6">
-                  <div class="border p-4 rounded-2">
-                    <div class="d-flex justify-content-between align-items-center mb-3">
-                      <img src="./images/comma.png" alt="">
-                      <div>
-                        <i class="fa-solid fa-star text-warning"></i>
-                        <i class="fa-solid fa-star text-warning"></i>
-                        <i class="fa-solid fa-star text-warning"></i>
-                        <i class="fa-solid fa-star text-warning"></i>
-                        <i class="fa-solid fa-star-half-stroke text-warning"></i>
-                      </div>
-                    </div>
-                    <span class="text-black-50">I liked this course very much. Good materials and perfect lecturers.
-                      Good structured and well explained material and interesting exercises ranging from very beginner
-                      to challenging. </span>
-                    <div class="mt-3">
-                      <span>Khalid bin Musha</span>
-                      <small class="text-black-50">Web Devlopper</small>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-6">
-                  <div class="border p-4 rounded-2">
-                    <div class="d-flex justify-content-between align-items-center mb-3">
-                      <img src="./images/comma.png" alt="">
-                      <div>
-                        <i class="fa-solid fa-star text-warning"></i>
-                        <i class="fa-solid fa-star text-warning"></i>
-                        <i class="fa-solid fa-star text-warning"></i>
-                        <i class="fa-solid fa-star text-warning"></i>
-                        <i class="fa-solid fa-star-half-stroke text-warning"></i>
-                      </div>
-                    </div>
-                    <span class="text-black-50">Excellent course, inface the best I found on any MOOC platform for a
-                      complete beginner to Java. Loved it. Would appreciate more coding assignments though. Only week 1
-                      & 2 have those.</span>
-                    <div class="mt-3">
-                      <span>Meshkat Siddik Kanok</span>
-                      <small class="text-black-50">Programmer</small>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <button class="btn btn-primary w-auto px-3 py-2 m-auto mt-5 d-md-block d-lg-none mb-5">View All</button>
           </div>
-          <button class="carousel-control-prev bg-primary w-auto h-25 m-auto rounded-circle" type="button"
-            data-bs-target="#carouselExampleControls" data-bs-slide="prev" style="">
+       
+          <button class="carousel-control-prev bg-primary w-auto h-25 px-4 m-auto rounded-circle d-none d-lg-block"
+            type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev" style="">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </button>
-          <button class="carousel-control-next bg-primary w-auto h-25 m-auto rounded-circle" type="button"
-            data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <button class="carousel-control-next bg-primary w-auto h-25 px-4  m-auto rounded-circle d-none d-lg-block"
+            type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
@@ -469,13 +518,13 @@
 
       <!-- Frequently Asked Questions: Fundraising -->
       <section class="mt-5">
-        <div class="text-center w-50 m-auto lh-lg">
+        <div class="text-center lh-lg">
           <h1>Frequently Asked Questions: Fundraising</h1>
-          <small class="text-black-50">What makes a successful arts and cultural organization? Led by DeVos Institute
+          <small class="text-black-50 ">What makes a successful arts and cultural organization? Led by DeVos Institute
             Chairman Michael M. Kaiser and President Brett Egan, this course will introduce you to a management theory
             called the Cycle which supports thriving arts and cultural organizations.</small>
         </div>
-        <div class="w-75 m-auto mt-5">
+        <div class="mt-5">
           <div class="accordion accordion-flush" id="accordionFlushExample">
             <div class="accordion-item border">
               <h2 class="accordion-header" id="flush-headingOne">
@@ -554,7 +603,7 @@
 
       <!-- All Companies--------------- -->
       <section>
-        <div class="mt-5">
+        <div class="mt-5 d-md-none d-lg-block d-none">
           <h1 class="text-center">Trusted by over 800+ companies</h1>
           <div class="d-flex align-items-center justify-content-between mt-4">
             <img src="./images/company/company-1.png" class="img-fluid" alt="">
@@ -570,9 +619,31 @@
     </main>
     <!-- Main End----------------
       ------------------------- -->
-
-
   </div>
+
+  <!-- Footer part start------- -->
+  <footer class="mt-5 bg-black">
+    <div class="d-flex flex-column align-items-center p-5">
+      <h4 class="text-light">Indeed</h4>
+      <span class="text-center mt-2 text-white">
+        Hakim Tower, Level 2, KA-74/1, Pragati Sarani, Kuril Chowrasta, Dhaka-1229, Bangladesh
+      </span>
+      <smal class="mt-2 text-white text">© 2022 indeed Inc. All rights reserved.</small>
+      <div class="d-flex align-items-center justify-content-center list-unstyled text-decoration-none p-4">
+        <li><a href="https://www.facebook.com/" class="text-light"><i class="fa-brands fa-twitter fa-2x"></i></a></i>
+        </li>
+        <li><a href="https://twitter.com/?lang=en" class="text-light ms-4"><i
+              class="fa-brands fa-facebook-f fa-2x"></i></a></li>
+        <li><a href="https://www.instagram.com/" class="text-light ms-4"><i
+              class="fa-brands fa-instagram fa-2x"></i></a></li>
+        <li><a href="https://www.youtube.com/" class="text-light ms-4"><i class="fa-brands fa-youtube fa-2x"></i></a>
+        </li>
+        <li><a href="https://www.tiktok.com/en/" class="text-light ms-4"><i class="fa-brands fa-tiktok fa-2x"></i></a>
+        </li>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer part End------ ------- -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

@@ -11,12 +11,8 @@ body {
 .img-britness{
     filter: brightness(60%);
 }
-
 .Carousel-img-height {
     height: 600px;
     object-fit: cover;
 }
-.course-status-img{
-    height:150px;
-  
-}
+ 
