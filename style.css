@@ -1,0 +1,22 @@
+/* google font---------------------------------------
+-------------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@700&family=Lobster&family=Montserrat:wght@300;400;600&family=Poppins:wght@600&family=Roboto+Mono:ital,wght@1,300&family=Roboto:wght@500&display=swap');
+
+
+/* font -family-------------- */
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+.img-britness{
+    filter: brightness(60%);
+}
+
+.Carousel-img-height {
+    height: 600px;
+    object-fit: cover;
+}
+.course-status-img{
+    height:150px;
+  
+}
